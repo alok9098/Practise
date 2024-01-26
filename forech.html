@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="demo"></div>
+    <script>
+        const fruit = ['apple','banana','mango']
+        fruit.forEach(function(value,index,array){
+            document.getElementById('demo').innerHTML +='<p> index:' + index + '<br>value:' +value + '</p>';
+        })
+    </script>
+    
+</body>
+</html>
